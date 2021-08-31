@@ -1,0 +1,124 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+ul {
+	list-style: none;
+	padding: 1rem 0;
+}
+body {
+	background-color: #ececec;
+}
+.header {
+	background-color: #ff7171;
+	border-top-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+.header .info {
+	padding: 2em 0;
+	color: #fff;
+}
+.header .info p {
+	line-height: 1em;
+}
+.header .info .name {
+	font-weight: bolder;
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.header .avatar {
+	background-image: url("https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-9/117302473_1261232784268786_7825070059020998025_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=xUS2TnGW1FYAX8aeZ2U&_nc_oc=AQn-06W5bBrOnMLBtLIehe-SfoGwxqX3_PokJ2XtOB_raiCY67WiRqJSMv5nggZHlNafFgbEDImtykptFkGCeyzP&_nc_ht=scontent.fdad1-1.fna&oh=a1443d2c25dd344f10edddedeab3a769&oe=5FA4D3D3");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 10em;
+	width: 10em;
+	border: 2px #fff solid;
+	border-radius: 5px;
+}
+.contact {
+	padding: 2em 0;
+	color: #fff;
+}
+.contact .item {
+	margin-top: 1em;
+}
+.body-left {
+	padding-top: 1em;
+	border-right: 3px #ff7171 solid;
+	margin: 1em 0;
+	color: #6e6d6d;
+}
+.body-left .title {
+	position: relative;
+}
+.body-left .title h5 {
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #ff7171;
+	background-image: linear-gradient(50deg, #ff7171 80%, #fff 20%);
+}
+.body-left .title svg {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 2em;
+	color: #ff7171;
+}
+
+.body-left li svg {
+	font-size: 1.5rem;
+}
+.body-left li p {
+	width: 90%;
+}
+.body-left .award p {
+	padding: 1rem 0;
+}
+.body-right {
+	padding-top: 1rem;
+	margin: 1em 0;
+	color: #6e6d6d;
+}
+.body-right .title {
+	padding: 7px 20px;
+	color: #fff;
+	background: linear-gradient(-45deg, #ff7171 0%, #ff7171 85%, transparent 15%),
+		linear-gradient(45deg, #fff 0%, #fff 10%, #fff 10%);
+}
+.body-right .title svg {
+	color: #ff7171;
+	font-size: 1.5rem;
+}
+.body-right .title span {
+	font-size: 1.2em;
+}
+.body-right .title #plus {
+	color: #fff;
+	font-size: 1.5rem;
+}
+.body-right .level {
+	font-size: 1em;
+}
+.body-right ul li:first-child {
+	margin: 1em 0px;
+}
+.body-right #highlight {
+	font-weight: bolder;
+	margin-right: 1em;
+}
+.body-right .contentAction {
+	padding: 1rem 0;
+}
+.scale {
+	padding-left: 1rem;
+}
+.body-right .contentAction ul li {
+	margin-top: 1em;
+}
+.body-right .contentProject {
+	padding: 1rem 0;
+}
+.body-right .contentProject ul li {
+	margin-top: 1em;
+}
